@@ -22,23 +22,25 @@ code {
 
 } */
 
+.body {
 
-
-.post-img{
   width: 30%;
-  height: 30%;
-  align-items: center;
-  margin-left: 200px;
+  border: 10px solid rgb(128, 115, 0);
+  padding: 50px;
+  margin: 10px; 
+  margin-left: 30%;
 }
 
-/* .cent {
+.post{
+  width: 100%;
+  height: 100%;
   align-items: center;
-} */
+
+  
+}
+
 
 .titl {
-  
-  margin-left: 250px;
-}
-.bod {
-  margin-left: 250px;
+  /* margin-bottom: 100px; */
+  margin-left: 10px;
 }
