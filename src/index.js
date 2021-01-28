@@ -12,7 +12,7 @@ function MediaCard ({title,body,imageUrl,profile}){
   return <div className= "body">
 
     
-    <h1> <img className="pro" src= "profile"></img>   </h1>
+    <h1> <img className="pro" src= {profile}></img>   </h1>
 
     <h2 className= "titl"> {title}</h2>
     <p> {body}</p>
