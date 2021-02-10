@@ -12,11 +12,11 @@ function MediaCard ({title,body,imageUrl,profile}){
   return <div className= "body">
 
     
-    <h1> <img className="pro" src= {profile}></img>   </h1>
+    <h1> <img className="pro" src= {profile} alt= "profile" ></img>   </h1>
 
     <h2 className= "titl"> {title}</h2>
     <p> {body}</p>
-    <img className= "post" src={imageUrl}/>
+    <img className= "post" src={imageUrl} alt="post" />
    </div>
  
 }
@@ -40,8 +40,8 @@ ReactDOM.render (
  
     profile = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dahlia-1508785047.jpg"
     title = 'Profile3'
-    body = 'PA beautiful picture A beautiful picture A beautiful picture A beautiful picture A beautiful picture A beautiful picture '
-    imageUrl = "https://mightifier.com/wp-content/uploads/2017/07/paijanne3453.jpg"/>
+    body = 'A beautiful picture A beautiful picture A beautiful picture A beautiful picture A beautiful picture A beautiful picture '
+    imageUrl = "https://mightifier.com/wp-content/uploads/2017/07/paijanne3453.jpg" alt = "image"/>
    
   </div>,
   document.getElementById("root")
